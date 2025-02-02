@@ -2,15 +2,12 @@ name: My first workflow
 on: push
 
 jobs:
-  first-job:
+  first_job:
     runs-on: ubuntu-latest
     steps:
-
-    -name: Welcome Message
-     run: echo "hello"
-
-    -name: List of files
-     run: ls
-
-    -name: read the file
-     run: cat README.md
+    - name: Welcome Message
+      run: echo "hello"
+    - name: List of files
+      run: ls
+    - name: read the file
+      run: cat README.md
