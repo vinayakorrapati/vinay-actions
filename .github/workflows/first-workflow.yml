@@ -4,13 +4,12 @@ name: my first workflow
   jobs:
     first-job:
       runs-on: ubuntu-latest
-      steps:
+        steps:
 
-      -name: Welcome Message
-        run: echo "hello"
+        -name: Welcome Message
+          run: echo "hello"
 
-      -name: List of files
-        run: ls
+        -name: List of files
+          run: ls
 
-      -name: read the file
-        run: cat README.md
+        -name: read the file
