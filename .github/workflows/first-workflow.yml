@@ -1,15 +1,15 @@
-name: my first workflow
-  on: push
+name: My first workflow
+on: push
 
-  jobs:
-    first-job:
-      runs-on: ubuntu-latest
-        steps:
+jobs:
+  first-job:
+    runs-on: ubuntu-latest
+    steps:
 
-        -name: Welcome Message
-          run: echo "hello"
+    -name: Welcome Message
+      run: echo "hello"
 
-        -name: List of files
-          run: ls
+    -name: List of files
+      run: ls
 
-        -name: read the file
+    -name: read the file
