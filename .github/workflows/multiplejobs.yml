@@ -32,8 +32,6 @@ jobs:
     - name: List of repo files
       run: ls -ltra
 
-    - name: read the file
-      run: cat README.md
   deploy_job_3:
     runs-on: ubuntu-latest
     needs: test_job_2
