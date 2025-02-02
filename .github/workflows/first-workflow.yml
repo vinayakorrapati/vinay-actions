@@ -17,3 +17,5 @@ jobs:
     #   run: ls
     # - name: read the file
     #   run: cat README.md
+    - name: Generate ASCII Artwork
+      run:  cowsay -f dragon "Run for cover, I am a DRAGON....RAWR" >> dragon.txt
